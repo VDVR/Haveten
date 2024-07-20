@@ -1,0 +1,34 @@
+.card1{
+    display: flex;
+    border-radius: 25px;
+   }
+   .card2{
+    display: flex;
+    border-radius: 25px;
+   }
+   .button{
+    display: flex;
+    margin-top: 20px;
+    color: white;
+    
+    
+   }
+   .card3{
+    background-color: rgb(62, 58, 58);
+    color: white;
+    border-radius: 25px;
+    height: 70vh;
+    width: 75vh;
+    
+    
+   }
+   .card4{
+    background-color: rgb(62, 58, 58);
+    color: white;
+    border-radius: 25px;
+    height: 70vh;
+    width: 75vh;
+   }
+   .card5{
+    margin-top: 10vh;
+   }

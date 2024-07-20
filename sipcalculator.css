@@ -1,0 +1,171 @@
+.credit {
+ position: absolute;
+ bottom: 5px;
+ right: 10px;
+ opacity: 0.8;
+ font-size: 12px
+ }
+ #myChart {
+ max-height: 460px;
+ background-color: antiquewhite;
+ background-size: cover;
+ }
+ 
+ .chartDiv {
+ max-height: 493px;
+ background-color: #eee;
+ display: flex;
+ align-items: center;
+ padding: 10px;
+ position: relative;
+ font-size: 18px;
+ letter-spacing: 1px;
+ }
+ .display_result {
+ font-size: 22px;
+ color:darkred;
+ }
+ 
+ .form-range {
+ width: inherit !important;
+ margin: 10px 0;
+ }
+ 
+ .text_input {
+ height: 40px;
+ float: right;
+ outline: 0;
+ border: 1px solid #ccc;
+ }
+ 
+ .outer_div {
+ min-height: 100px;
+ background-color:antiquewhite;
+ padding: 20px;
+ margin-bottom: 2px;
+ }
+ .outer_div2 {
+ padding: 20px 70px 20px 30px;
+ }
+ .hide-span {
+ opacity: 0; z-index: -9
+ }
+ 
+ .inner_div {
+ 
+ width: 100%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ padding-left: 10px;
+ position: relative;
+ }
+ 
+ .row {
+ --bs-gutter-x: 0 !important;
+ background-color: antiquewhite;
+ }
+ 
+ input[type="range"]:focus {
+ outline: none;
+ }
+ 
+ input[type="range"]::-webkit-slider-thumb {
+ -webkit-appearance:button;
+ border: 5px solid #fff;
+ height: 30px;
+ width: 15px;
+ cursor: pointer;
+ margin-top: -10px;
+ box-shadow: 0px 0px 0px #000000, 0px 0px 3px #0d0d0d;
+ outline:auto;
+ }
+ 
+ #showValue, #showValue2, #showValue3 {
+ position: absolute;
+ border: 1px solid #9ccaff;
+ width: 40px;
+ height: 30px;
+ background:antiquewhite;
+ font-size: 12px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: #00a1ff;
+ top: 45px;
+ left: 0px;
+ }
+ /*
+ #showAmps {
+ } */
+ #showValue:before, #showValue2:before, #showValue3:before {
+ content: '';
+ border-left: 5px solid transparent;
+ border-right: 5px solid transparent;
+ border-top: 5px solid transparent;
+ border-bottom: 7px solid #4895ef;
+ height: 0px;
+ width: 0px;
+ position: absolute;
+ /* left: 0; */
+ top: -12px;
+ }
+ .thisthis {
+ font-weight: 300;
+ font-size: 11px;
+ float: right;
+ line-height: 2;
+ }
+ .text-center {
+ text-align: center;
+ padding: 10px 0;
+ }
+ 
+ @media only screen and (max-width: 500px) {
+ .text_input {
+ margin-left: 10px;
+ font-size: 18px;
+ padding: 5px;
+ width: 100px;
+ }
+ #textValue, #textValue2 {
+ font-size: 16px;
+ padding: 2px;
+ }
+ .outer_div2, .outer_div {
+ padding: 10px;
+ }
+ .inner_div {
+ margin: 0;
+ }
+ .slider_box {
+ padding-right: 0;
+ }
+ .inner_div {
+ padding: 0;
+ }
+ .thisthis {
+ width: 95px;
+ line-height: 2;
+ }
+ .result_text {
+ font-size: 12px
+ }
+ .display_result {
+ font-size: 16px;
+ }
+ }
+ @media only screen and (max-width: 300px) {
+ .result_text {
+ font-size: 10px
+ }
+ .display_result {
+ font-size: 13px;
+ }
+ #textValue, #textValue2, #textValue3 {
+ font-size: 12px;
+ }
+ .col-4 {
+ font-size: 12px;
+ }
+ }

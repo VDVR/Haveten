@@ -1,0 +1,21 @@
+.first-container{
+    display: flex;
+    justify-content: center;
+   }
+   .first-card1{
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+    padding-right: 200px;
+    margin-top: 50px;
+    margin-left: 5px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+   }
+   .first-card2{
+    margin-top: 50px;
+    
+   }

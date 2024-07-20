@@ -1,0 +1,268 @@
+.third-inner{
+    background-color: rgb(34, 51, 63);
+    color: white;
+    padding: 20vh;
+    height: 70vh;
+    margin-bottom: 40px;
+   }
+   .third-inner>h1{
+    font-size: 50px;
+   }
+   .third-inner>h6{
+    border: 2px;
+    width: 35vw;
+    margin-top: 20px;
+    margin-left: 0;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 20px;
+   }
+   .bu1{
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    background-color: rgb(34, 51, 63);
+    border-radius: 25px;
+    margin-top: 8px;
+   }
+   .bu2{
+    margin-left: 10px;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    background-color: rgb(34, 51, 63);
+    border-radius: 25px;
+    margin-top: 8px;
+   }
+   .third-content{
+    display: flex;
+    padding-left: 40vh;
+   }
+   .first-para{
+    border: 2px;
+    text-align: justify;
+    width: 45vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   }
+   .points{
+    border: 2px;
+    width: 45vw;
+    text-align: justify;
+   }
+   .second-para{
+    border: 2px;
+    width: 45vw;
+    text-align: justify;
+   }
+   .table-head{
+    background-color: darkblue;
+    color: white;
+   }
+   .table-1{
+    background-color: rgb(234, 234, 237);
+   } 
+   .table-2{
+    background-color: rgb(255, 255, 255);
+   }
+   .last-para{
+    font-size: small;
+   }
+   .side{
+    border: 2px;
+    width: 40vw;
+    margin-left: 40px;
+   }
+   .side-img{
+    border: 2px;
+    width: 25vw;
+   }
+   .side-content1{
+    padding-left: 15px;
+    border: 2px;
+    background-color: rgb(220, 216, 216);
+    width: 25vw;
+    padding-top: 10px;
+   }
+   .side-second{
+    border: 2px;
+    background-color: rgb(189, 27, 27);
+    width: 25vw;
+   }
+   .side-second>h5{
+    color: white;
+    margin: 10px;
+    margin-left: 50px;
+    padding-top: 10px;
+    font-weight: bold;
+   }
+   .side-second-button{
+    border-radius: 20px;
+    background-color: white;
+    color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 50px;
+    font-size: 13px;
+    border-color: none;
+    margin-bottom: 20px;
+   }
+   .side-third-button{
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 5px;
+    width: 5vw;
+    font-size: smaller;
+   }
+   .side1{
+    background-color: rgb(219, 207, 219);
+    color:black;
+    padding-top: 20vh;
+    width:"350vh";
+    height:"10vh";
+   }
+   .side2{
+    margin-left: 130vh;
+    height: 20vh;
+    background-color: brown;
+    margin-right: 9vh;
+    padding: 20px;
+    
+   }.inner{
+    background-color: rgb(34, 51, 63);
+    color: white;
+    padding: 20vh;
+    height: 70vh;
+    margin-bottom: 40px;
+   }
+   .inner>h1{
+    font-size: 50px;
+   }
+   .inner>h6{
+    margin-top: 20px;
+    margin-left: 0;
+    font-size: 18px;
+    text-align: justify;
+   }
+   .bu1{
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    background-color: rgb(34, 51, 63);
+    border-radius: 25px;
+    margin-top: 8px;
+   }
+   .bu2{
+    margin-left: 10px;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    background-color: rgb(34, 51, 63);
+    border-radius: 25px;
+    margin-top: 8px;
+   }
+   .content{
+    display: flex;
+    padding-left: 40vh;
+   }
+   .first-para{
+    border: 2px;
+    text-align: justify;
+    width: 45vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   }
+   .second-para{
+    border: 2px;
+    width: 45vw;
+    text-align: justify;
+   }
+   .last-para{
+    font-size: small;
+   }
+   .side{
+    border: 2px;
+    width: 40vw;
+    margin-left: 40px;
+   }
+   .side-img{
+    border: 2px;
+    width: 25vw;
+   }
+   .side-content1{
+    padding-left: 15px;
+    border: 2px;
+    background-color: rgb(220, 216, 216);
+    width: 25vw;
+    padding-top: 10px;
+   }
+   .side-second{
+    border: 2px;
+    background-color: rgb(189, 27, 27);
+    width: 25vw;
+   }
+   .side-second>h5{
+    color: white;
+    margin: 10px;
+    margin-left: 50px;
+    padding-top: 10px;
+    font-weight: bold;
+   }
+   .side-second-button{
+    border-radius: 20px;
+    background-color: white;
+    color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 50px;
+    font-size: 13px;
+    border-color: none;
+    margin-bottom: 20px;
+   }
+   .side-third-button{
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 5px;
+    width: 5vw;
+    font-size: smaller;
+   }
+   .side1{
+    background-color: rgb(219, 207, 219);
+    color:black;
+    padding-top: 20vh;
+    width:"350vh";
+    height:"10vh";
+   }
+   .side2{
+    margin-left: 130vh;
+    height: 20vh;
+    background-color: brown;
+    margin-right: 9vh;
+    padding: 20px;
+    
+   }
+   .container{
+    background-color: white;
+    color: black;
+   }
+   .performance{
+    position: relative;
+    margin-bottom: 20px;
+    height: 50vh;
+    width: 40vw;
+   }
+   
